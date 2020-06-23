@@ -1,0 +1,56 @@
+* {
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.container{
+    background-color: rgb(238, 216, 220)
+}
+
+.headings{
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0%;
+  margin-bottom: 1%;
+  font-style: italic;
+  color: #101111;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+    color: #101111;
+    font-size: 30px;  
+    padding: 5px;
+    margin-bottom: 0px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.mood-radar h3 { 
+    align-items: center;
+    display: inline-block;
+}
+
+#radar {
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 400px;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index Page!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Krona+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{ time }}">
+  </head>  
+  <body>
+   <div class="container">
+        <div class="headings">
+            <h1>Your Cat Meme!</h1>
+            <h2> Find the Cat that Matches Your Mood.</h2>
+            <img src="/static/images/hellocat.jpg" />
+        </div>
+            <h2>Mood Radar:</h2>
+            <div class="mood-radar"> 
+                <form method="post", action="/results""> 
+                    <h3> "Way too Happy!" </h3>
+                    <input type="range" id="mood" name="mood" min="0" max="100" value="50">
+                    <h3> "Walk Away From Me NOW!"</h3>
+                    <input type="submit" id="radar" value="Submit">
+                </form>
+        </div>
+    </div>
+  </body>
+</html>
