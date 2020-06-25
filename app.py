@@ -1,4 +1,3 @@
-import requests
 from flask import Flask, render_template, request
 from datetime import datetime
 from model import personal_meme
